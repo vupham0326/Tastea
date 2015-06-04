@@ -35,6 +35,12 @@ end
 # Adding twitter bootstrap 3
 gem 'bootstrap-sass', '~> 3.3.4'
 
+# add will_paginate
+gem 'will_paginate', '> 3.0'
+
+# add simpLe_form gem
+gem 'simple_form'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

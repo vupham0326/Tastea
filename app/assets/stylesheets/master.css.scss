@@ -9,27 +9,23 @@
   background: #fff;
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
 }
 
-.slogan {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
-  font-style: italic;
-  padding-top: 26px;
+.navbar.navbar-inverse {
+  background:url('/assets/dark_wood.png');
+  border-radius: 0;
+  box-shadow: 0px 2px 3px #2a2a2a;
 }
 
-.link {
-	padding-top: 26px;
+.navbar-inverse .navbar-brand {
+	color: #07B830;
+	font-family: 'kaushan_scriptregular', sans-serif;
+	font-size: 28px;
 }
 
-.link a {
-	color: black;
-	font-size: 20ppx;
-	border-bottom: 1px solid #dfdfdf;
-}
-
-.title {
-	padding-top: 24px;
-}
 
 hr {
 	clear:both;
@@ -37,4 +33,23 @@ hr {
 
 header {
 	border-top: 9px solid #222222;
+	background:transparent url('image.png') left top no-repeat;
 }
+
+h1 {
+	font-family: 'kaushan_scriptregular', sans-serif;
+	font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url('/assets/restaurant.png')
+}
+
+
+
+
